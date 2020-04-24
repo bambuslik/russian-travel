@@ -4,8 +4,19 @@
 @import url("__list-figure/intro__list-figure.css");
 
 .intro {
-  margin: 92px auto 0;
-  max-width: 690px;
-  padding-right: 294px;
-  border: 1px solid red;
+  margin: 0 auto;
+  max-width: 984px;
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0 16px;
+  }
 }

@@ -1,0 +1,13 @@
+.footer__nav-item {
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__nav-item {
+    padding-bottom: 32px;
+  }
+
+  .footer__nav-item:last-child {
+    padding-bottom: 48px;
+  }
+}
